@@ -31,18 +31,69 @@ class="bg-dark-subtle">
             </div>
             </div>
         </nav>
-        <div class="container text-center container-fluid">
+        <div class="container text-center container-fluid" style="margin-top: 5%; margin-bottom: 5%;">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 align-self-center">
-                    <p>This is the main content of the page.</p>
+                <p class="h1" style="margin-bottom: 5%;">Intézmények ahol tanultam valami hasznosat:</p>
+                <div class="col-12 col-sm-12 col-md-12 align-self-center">
+                    <table class="table table-dark table-striped-columns">
+                        <thead>
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Intézmény neve</th>
+                            <th scope="col">Mettől</th>
+                            <th scope="col">Meddig</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr onclick="location.hash='bolcsode'" style="cursor:pointer">
+                                <th scope="row">1</th>
+                                <td>Szegedi Tünde Téri Bölcsöde</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr onclick="location.hash='ovoda'" style="cursor:pointer">
+                                <th scope="row">2</th>
+                                <td>Szegedi ÓVI Tünde Téri Óvoda</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr onclick="location.hash='iskola'" style="cursor:pointer">
+                                <th scope="row">3</th>
+                                <td>Gedói Általános Iskola és Alapfokú Művészeti Iskola</td>
+                                <td>Doe</td>
+                                <td>@social</td>
+                            </tr>
+                            <tr onclick="location.hash='technikum'" style="cursor:pointer">
+                                <th scope="row">3</th>
+                                <td>technikum</td>
+                                <td>Doe</td>
+                                <td>@social</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 align-self-center">
-                    <p>This is the main content of the page.</p>
+                <div class="col-12 col-sm-12 col-md-12 align-self-center">
+                    <section id="bolcsode">
+                        <p class="h1" style="margin-bottom: 5%;" >Szegedi Tünde Téri Bölcsöde</p>
+                        <p>This is the main content of the page.</p>
+                    </section>
+                    <section id="ovoda">
+                        <p class="h1" style="margin-bottom: 5%;" >Szegedi ÓVI Tünde Téri Óvoda</p>
+                        <p>This is the main content of the page.</p>
+                    </section>
+                    <section id="iskola">
+                        <p class="h1" style="margin-bottom: 5%;" >Gedói Általános Iskola és Alapfokú Művészeti Iskola</p>
+                        <p>This is the main content of the page.</p>
+                    </section>
+                    <section id="technikum">
+                        <p class="h1" style="margin-bottom: 5%;" >technikum</p>
+                        <p>This is the main content of the page.</p>
+                    </section>
                 </div>
             </div>
         </div>
     </Main>
-    <footer>
+    <footer class="bg-dark">
         <p>&copy; 2026 c2morgab. Minden jog fenntartva.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

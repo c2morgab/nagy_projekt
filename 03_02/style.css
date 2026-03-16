@@ -28,6 +28,7 @@ footer
 {
     animation: fadeIn 2s ease-in-out infinite;
 }
+
 @keyframes fadeIn
 {
     0%
