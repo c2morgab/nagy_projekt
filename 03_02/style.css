@@ -47,7 +47,7 @@ footer
 
 .gallery_image:hover
 {
-    animation: galleryAnimation 3s ease-in-out infinite;
+    animation: galleryAnimation 2s ease-in-out infinite;
 }
 
 @keyframes galleryAnimation
@@ -58,11 +58,31 @@ footer
     }
     50%
     {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     100%
     {
         transform: scale(1);
     }
-    
+}
+
+.main_image:hover
+{
+    animation: mainImageAnimation 3s ease-in-out infinite;
+}
+
+@keyframes mainImageAnimation
+{
+    0%
+    {
+        transform: scale(1);
+    }
+    50%
+    {
+        transform: scale(1.1);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
 }
