@@ -118,3 +118,27 @@ footer
         transform: scale(1);
     }
 }
+.achievementsBox
+{
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
+}
+.achievements:hover
+{
+    animation: achievementsAnimation 2s ease-in-out infinite;
+}
+
+@keyframes achievementsAnimation
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(-10px);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
